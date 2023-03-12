@@ -54,11 +54,11 @@ const SideNavigation = (props: Props) => {
   };
 
   return (
-    <div className="p-[4px] lg:px-2 lg:w-[260px]">
+    <div className="p-[2px] lg:px-2 lg:w-[260px] w-[100px]">
       {MenuItems.map((item) => {
         return (
           <div
-            className={`flex flex-col lg:flex-row lg:gap-6 gap-1 p-4 items-center hover:bg-zinc-800 rounded-lg 
+            className={`flex flex-col lg:flex-row lg:gap-6 gap-1 p-2 lg:p-4  items-center hover:bg-zinc-800 rounded-lg 
             ${
               item.pathname === pathname && 'bg-zinc-700 hover:bg-zinc-600'
             }  rounded-lg cursor-pointer
