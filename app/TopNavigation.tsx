@@ -11,7 +11,7 @@ const TopNavigation = (props: Props) => {
   const [search, setSearch] = useState('');
 
   return (
-    <div className="border-2 border-red-500 p-4 flex justify-between items-center">
+    <div className=" p-4 flex justify-between items-center">
       <div className="flex items-center gap-6">
         <HiOutlineMenu size={26} />
         <div className="flex items-center gap-2">
