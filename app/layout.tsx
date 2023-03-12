@@ -1,4 +1,4 @@
-import TopNavigation from './api/TopNavigation';
+import TopNavigation from './TopNavigation';
 import './globals.css';
 import SideNavigation from './SideNavigation';
 
